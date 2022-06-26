@@ -167,6 +167,11 @@
     html{
         font-size: 12px;
     }
+
+    /* HEADER */
+    .contenedor-marca .texto2{
+        bottom: 32px;
+    }
     /* INICIO */
     .img{
         min-width: 22rem;
