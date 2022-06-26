@@ -8,9 +8,10 @@
     color:#fff;
     box-sizing: border-box;
     box-shadow: inset 0 -1px 0  #777;
+    position: relative;
 }
 .inicio h2{
-    padding-top: 3rem;
+    padding-top: 7rem;
     font-size: 10rem ;
     font-weight: normal;
 }

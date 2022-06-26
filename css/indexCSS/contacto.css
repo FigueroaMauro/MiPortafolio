@@ -2,6 +2,7 @@
     min-height: calc(100vh - 7rem);
     padding-top: 3rem;
     box-sizing: border-box;
+    position: relative;
     
 }
 .titulo-contactos{
