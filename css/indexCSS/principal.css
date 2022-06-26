@@ -35,4 +35,38 @@ body{
     box-sizing: border-box;
 }
 
+.oculto{
+    display: none;
+    z-index: -2;
+    visibility: hidden;
+}
 
+.overflowH{
+    overflow: hidden;
+}
+
+.trasladar{
+    animation: traslado 2s both;
+}
+
+.volver{
+    animation: volver 2s;
+}
+
+@keyframes traslado {
+    0%{
+        transform: translateX(-100vw)
+    }
+    100%{
+        transform: translateX(100vw)
+    }
+}
+
+@keyframes volver {
+    0%{
+        transform: translateX(100vw);
+    }
+    100%{
+        transform: translateX(-100vw);
+    }
+}

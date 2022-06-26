@@ -4,7 +4,7 @@
     background:linear-gradient(#575757, #1d1d1d);
     color: #f1f1f1;
     box-sizing: border-box;  
-    position: relative;
+    position: fixed;
     z-index: 1;
     top: 0;
 }
@@ -87,12 +87,19 @@
     display: none;
 }
 
-.logo-linkedin, .logo-github, .logo-menuH{
+.logo-close{
+ 
+    transform: scale(1.1);
+}
+
+
+
+.logo-linkedin, .logo-github, .logo-menuH, .logo-close{
     width: 2.5rem;
     height: 2.5rem;
     color: #22f2b2;
 }
-.logo-linkedin:hover, .logo-github:hover, .logo-menuH:hover{
+.logo-linkedin:hover, .logo-github:hover, .logo-menuH:hover, .logo-close:hover{
     color: #fd2255;
     cursor: pointer;
 }

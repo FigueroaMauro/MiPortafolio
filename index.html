@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="./css/indexCSS/portafolio.css">
         <link rel="stylesheet" href="./css/indexCSS/contacto.css">
         <link rel="stylesheet" href="./css/indexCSS/responsive.css">
+        <link rel="stylesheet" href="./css/menu-hamburguesa.css">
 
     </head>
     <body>
@@ -28,20 +29,20 @@
                 <nav class="menu">
 
                     <div class="contenedor-logo">
-                        <a href="">
+                        <a href="index.html">
                             <div class="contenedor-marca">
                                 <p class="texto1"><span class="color-principal">F</span>M</p>
                                 <p class="texto2"><span class="color-principal">Developer</span></p>
-
                             </div>
                         </a>
                         <div class="contenedor-linkedin">
-                            <a href=""><ion-icon name="logo-linkedin" class="logo-linkedin"></ion-icon></a>
+                            <a href="https://www.linkedin.com/in/figueroamauro/" target="_blank"><ion-icon name="logo-linkedin" class="logo-linkedin"></ion-icon></a>
                         </div>
                         <div class="contenedor-github">
-                            <a href=""><ion-icon name="logo-github" class="logo-github"></ion-icon></a>
+                            <a href="https://github.com/FigueroaMauro?tab=repositories" target="_blank"><ion-icon name="logo-github" class="logo-github"></ion-icon></a>
                         </div>
                         <div class="contenedor-menuH">
+                            <ion-icon name="close" class="logo-close oculto"></ion-icon>
                             <ion-icon name="menu" class="logo-menuH"></ion-icon>
                         </div>
                     </div>
@@ -62,6 +63,32 @@
             </header>
             
             <main class="contenedor-principal">
+
+                <div class="menu-hamburguesa ">
+                    <div class="menu-inicio hamburguesa">
+                       <a href=""><h3>Inicio</h3></a>
+                    </div>
+                    <div class="menu-sobre-mi hamburguesa">
+                        <a href=""><h3>Sobre Mi</h3></a>
+                    </div>
+                    <div class="menu-habilidades hamburguesa">
+                        <a href=""><h3>Habilidades</h3></a>
+                    </div>
+                    <div class="menu-portafolio hamburguesa">
+                        <a href=""><h3>Portafolio</h3></a>
+                    </div>
+                    <div class="menu-contacto hamburguesa">
+                        <a href=""><h3>Contacto</h3></a>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
                 <img src="./imagenes/banner2.jpg" class="imagen-banner" alt="">
 
 
@@ -84,10 +111,10 @@
                             <ul>
                                 <li>Programador FullStack Jr.</li>
                                 <li>Orientado al Backend (Java).</li>
-                                <li>Manejo de Base de Datos (SQL).</li>
-                                <li>Uso de herramientas Ágiles.</li>
+                                <li>Manejo de base de datos (SQL).</li>
+                                <li>Uso de herramientas ágiles.</li>
                                 <li>Excelente trabajo en equipo.</li>
-                                <li>Extrovertido y Proactivo.</li>
+                                <li>Motivador e influyente.</li>
                                 <li class="mas"><a href="">Ver más...</a></li>
                             </ul>
                             <div class="contenedor-btn-contacto">
@@ -112,7 +139,7 @@
                                 Mi nombre es Mauro Figueroa, tengo 31 años y soy de Buenos Aires(Argentina).<br><br>
                                 Soy estudiante de Programación y amo todo lo relacionado con la Tecnología y la
                                 gestión de proyectos.<br><br>
-                                Me gusta trabajar en equipo tanto presencial como remotamente, aprobechando el uso de herramientas colaborativas
+                                Me gusta trabajar en equipo tanto presencial como remotamente, aprovechando el uso de herramientas colaborativas
                                 como Trello, Slack, Figma, etc.<br><br>
                                 Estoy en búsqueda de mi primer trabajo en Tecnología para ir ganando más experiencia en el rubro, y así poder enfrentar proyectos
                                 de mayor envergadura.<br><br>
@@ -224,29 +251,32 @@
                             <div class="ver-proyectos oculto"> 
                                 <a href="">Ver Proyecto</a>
                             </div>
-                            <img src="./imagenes/encriptador.jpg" alt="">
                             <div class="nombre-proyectos">
                                 <h3>Encriptador Alura</h3>
                             </div>
+                            <img src="./imagenes/encriptador.jpg" alt="">
                         </div>
+
                         <div class="ahorcado proyectos">
-                                <div class="ver-proyectos oculto"> 
-                                    <a href="">Ver Proyecto</a>
-                                </div>
-                            <img src="./imagenes/ahorcado.jpg" alt="">
+                            <div class="ver-proyectos oculto"> 
+                                <a href="">Ver Proyecto</a>
+                            </div>
                             <div class="nombre-proyectos">
                                 <h3>Ahorcado Alura</h3>
                             </div>
+                            <img src="./imagenes/ahorcado.jpg" alt="">
                         </div>
+
                         <div class="mi-web proyectos">
+                            <div class="nombre-proyectos">
+                                <h3>Mi Portafolio Alura</h3>
+                            </div>
                             <div class="ver-proyectos oculto"> 
                                 <a href="">Ver Proyecto</a>
                             </div>
                             <img src="./imagenes/miweb.jpg" alt="">
-                            <div class="nombre-proyectos">
-                                <h3>Mi Portafolio Alura</h3>
-                            </div>
                         </div>
+
                     </div>
                     <div class="ver-todos-portafolios">
                         <a href=""><h3>VER TODOS</h3></a>
@@ -285,7 +315,7 @@
             </footer>
 
         </div>
-
+        <script src="menu.js"></script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>

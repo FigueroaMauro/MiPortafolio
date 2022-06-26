@@ -1,0 +1,45 @@
+.menu-hamburguesa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d1d;
+    z-index: 2;
+    left: -100vw;
+    width: 100vw;
+    height: calc(100vh - 4rem);
+    top: calc(4rem + 1px);
+    position: fixed;
+}
+
+
+
+.hamburguesa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    border-top: 1px solid #777;
+}
+.menu-contacto{
+    border-bottom: 1px solid #777;
+}
+.hamburguesa h3{
+    font-size: 2rem;
+    color: #555;
+    font-weight: normal;
+    letter-spacing: .2rem;
+}
+.hamburguesa h3:hover{
+    color: #22f2b2;
+}
+
+@keyframes lado {
+    0%{
+        left: -100vw;
+    }
+    100%{
+        left: 0;
+    }
+}
