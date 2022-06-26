@@ -1,0 +1,54 @@
+.inicio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 4rem);
+    align-items: center;
+    padding: 13rem 4rem 0 4rem;
+    color:#fff;
+    box-sizing: border-box;
+    box-shadow: inset 0 -1px 0  #777;
+}
+.inicio h2{
+    padding-top: 3rem;
+    font-size: 10rem ;
+    font-weight: normal;
+}
+.inicio h3{
+    font-size: 3rem;
+    font-family:'Times New Roman', Times, serif;
+    color: #555;
+    font-style: italic;
+    letter-spacing: .8rem;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 1050px) {
+    
+    .inicio{
+        display: inline-block;
+        text-align: center;
+        min-height: auto;
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+    .inicio h2{
+        font-size: 7rem;
+        line-height: .8;
+    }
+
+    .descripcion{
+        display: none;
+    }
+    .img {
+        width: 50%;
+        min-width: 25rem;
+    }
+
+    .foto{
+        min-height: auto;
+        overflow-y: hidden;
+        box-sizing: border-box;
+        box-shadow: none;
+    }
+}
