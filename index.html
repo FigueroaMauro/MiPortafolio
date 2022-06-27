@@ -29,7 +29,7 @@
                 <nav class="menu">
 
                     <div class="contenedor-logo">
-                        <a href="index.html">
+                        <a href="#inicio">
                             <div class="contenedor-marca">
                                 <p class="texto1"><span class="color-principal">F</span>M</p>
                                 <p class="texto2"><span class="color-principal">Developer</span></p>
@@ -47,16 +47,16 @@
                         </div>
                     </div>
                     <div class="contenedor-item1">
-                        <a href="">Sobre Mi</a>
+                        <a href="#sobre-mi">Sobre Mi</a>
                     </div>
                     <div class="contenedor-item2">
-                        <a href="">Habilidades</a>
+                        <a href="#habilidades">Habilidades</a>
                     </div>
                     <div class="contenedor-item3">
-                        <a href="">Portafolio</a>
+                        <a href="#portafolio">Portafolio</a>
                     </div>
                     <div class="contenedor-item4">
-                        <a href="">Contacto</a>
+                        <a href="#contacto">Contacto</a>
                     </div>
                 </nav>
                 
@@ -65,34 +65,35 @@
             <main class="contenedor-principal">
 
                 <div class="menu-hamburguesa ">
+
+                    <div class="titulo-menuH">
+                        <h2>MENU</h2>
+                    </div>
                     <div class="menu-inicio hamburguesa">
-                       <a href=""><h3>Inicio</h3></a>
+                       <a href="#inicio"><h3>Inicio</h3></a>
                     </div>
                     <div class="menu-sobre-mi hamburguesa">
-                        <a href=""><h3>Sobre Mi</h3></a>
+                        <a href="#sobre-mi"><h3>Sobre Mi</h3></a>
                     </div>
                     <div class="menu-habilidades hamburguesa">
-                        <a href=""><h3>Habilidades</h3></a>
+                        <a href="#habilidades"><h3>Habilidades</h3></a>
                     </div>
                     <div class="menu-portafolio hamburguesa">
-                        <a href=""><h3>Portafolio</h3></a>
+                        <a href="#portafolio"><h3>Portafolio</h3></a>
                     </div>
                     <div class="menu-contacto hamburguesa">
-                        <a href=""><h3>Contacto</h3></a>
+                        <a href="#contacto"><h3>Contacto</h3></a>
+                    </div>
+
+                    <div class="curriculum">
+                        <input type="button" class="btn-cv" value="Descargar CV">
                     </div>
                 </div>
-
-
-
-
-
-
-
 
                 <img src="./imagenes/banner2.jpg" class="imagen-banner" alt="">
 
 
-                <section class="inicio">
+                <section class="inicio" id="inicio">
                     <div class="contenedor-absoluto">
                         <p>HelloWorld</p>
                     </div>
@@ -117,14 +118,16 @@
                                 <li>Motivador e influyente.</li>
                                 <li class="mas"><a href="">Ver más...</a></li>
                             </ul>
-                            <div class="contenedor-btn-contacto">
-                                <input type="button" class="btn-contacto" value="Contactame!">
-                            </div>
+                            <a href="#contacto">
+                                <div class="contenedor-btn-contacto">
+                                    <input type="button" class="btn-contacto" value="Contactame!">
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </aside>
 
-                <section class="sobre-mi">
+                <section class="sobre-mi" id="sobre-mi">
                     <div class="contenedor-absoluto">
                         <p>Sobre <br>Mi</p>
                     </div>
@@ -145,6 +148,9 @@
                                 de mayor envergadura.<br><br>
                                 <a href="">Ver más...</a>
                             </h4>
+                            <div class="descargar-cv">
+                                <input type="button" class="btn-cv" value="Descargar CV">
+                            </div>
                         </div>
                     </div>
                     
@@ -175,7 +181,7 @@
                         </div>
                 </section>
 
-                <section class="contenedor-habilidades">
+                <section class="contenedor-habilidades" id="habilidades">
                     <div class="contenedor-absoluto">
                         <p>Habilidades</p>
                     </div>
@@ -237,7 +243,7 @@
                     </div>
                 </section>
                 
-                <section class="portafolio">
+                <section class="portafolio" id="portafolio">
                     <div class="contenedor-absoluto">
                         <p>Proyectos</p>
                     </div>
@@ -248,8 +254,8 @@
                     <div class="contenedor-proyectos">
 
                         <div class="encriptador proyectos">
-                            <div class="ver-proyectos oculto"> 
-                                <a href="">Ver Proyecto</a>
+                            <div class="ver-proyectos oculto-opaco"> 
+                                <a href="https://figueroamauro.github.io/PrimerChallengeONE/" target="_blank">Ver Proyecto</a>
                             </div>
                             <div class="nombre-proyectos">
                                 <h3>Encriptador Alura</h3>
@@ -258,8 +264,8 @@
                         </div>
 
                         <div class="ahorcado proyectos">
-                            <div class="ver-proyectos oculto"> 
-                                <a href="">Ver Proyecto</a>
+                            <div class="ver-proyectos oculto-opaco"> 
+                                <a href="https://figueroamauro.github.io/SegundoChallengeONE/" target="_blank">Ver Proyecto</a>
                             </div>
                             <div class="nombre-proyectos">
                                 <h3>Ahorcado Alura</h3>
@@ -271,8 +277,8 @@
                             <div class="nombre-proyectos">
                                 <h3>Mi Portafolio Alura</h3>
                             </div>
-                            <div class="ver-proyectos oculto"> 
-                                <a href="">Ver Proyecto</a>
+                            <div class="ver-proyectos oculto-opaco"> 
+                                <a href="https://figueroamauro.github.io/MiPortafolio/" target="_blank">Ver Proyecto</a>
                             </div>
                             <img src="./imagenes/miweb.jpg" alt="">
                         </div>
@@ -283,7 +289,7 @@
                     </div>
                 </section>
     
-                <section class="contacto">
+                <section class="contacto" id="contacto">
                     <div class="contenedor-absoluto">
                         <p>Contacto</p>
                     </div>
@@ -296,9 +302,15 @@
                         no dudes en usar el formulario.
                     </p>
 
+                    <div class="mensaje-exitoso">
+                        
+                    </div>
+                    <div class="errores">
+
+                    </div>
                     <div class="formulario-contenedor">
                         <form class="formulario">
-                            <input type="text" placeholder="Nombre" class="input-nombre inputs">
+                            <input type="text" placeholder="Nombre" class="input-nombre inputs ">
                             <input type="text" placeholder="Email" class="input-email inputs">
                             <input type="text" placeholder="Asunto" class="input-asunto inputs">
                             <textarea placeholder="Mensaje" class="area inputs"></textarea>
@@ -316,6 +328,7 @@
 
         </div>
         <script src="menu.js"></script>
+        <script src="formulario.js"></script>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>

@@ -1,21 +1,21 @@
 html{
     overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
 }
 body{
     width: 100vw;
-    
     background-color: #1d1d1d;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* overflow-x: hidden */
 }
 
 .color-principal{
     color: #22f2b2;
 }
 
-.oculto{
+.oculto-opaco{
     opacity: 0;
 }
 
@@ -37,7 +37,6 @@ body{
 
 .oculto{
     display: none;
-    z-index: -2;
     visibility: hidden;
 }
 

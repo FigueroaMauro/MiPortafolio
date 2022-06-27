@@ -15,6 +15,9 @@
     .formulario-contenedor{
         width: 60%;
     }
+    .errores{
+        width: 60%;
+    }
 }
 
 @media screen and (max-width:1050px) {
@@ -202,6 +205,13 @@
     }
     .formulario-contenedor{
         width: 100%;
+    }
+    .errores{
+        width: 100%;
+    }
+    .mensaje-exitoso{
+        font-size: 1.2rem;
+        letter-spacing: .3rem;
     }
     .titulo-contactos h3{
         font-size: 3rem;
