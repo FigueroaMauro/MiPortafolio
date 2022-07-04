@@ -32,6 +32,10 @@ function validarNombre(){
         listaErrores.push("Campo nombre vacío");
         inputNombre.classList.add("borde-rojo");
     }
+    if(inputNombre.value.length > 50){
+        listaErrores.push("El nombre debe ser menor a 50 caracteres");
+        inputNombre.classList.add("borde-rojo");
+    }
 
 }
 
@@ -46,6 +50,11 @@ function validarEmail(){
         listaErrores.push("Ingresa un email válido");
         inputEmail.classList.add("borde-rojo");
     }
+
+    if(inputEmail.value.length > 50){
+        listaErrores.push("El email debe ser menor a 50 caracteres");
+        inputEmail.classList.add("borde-rojo");
+    }
 }
 
 function validarAsunto(){
@@ -54,12 +63,22 @@ function validarAsunto(){
         listaErrores.push("Campo asunto vacío");
         inputAsunto.classList.add("borde-rojo");
     }
+
+    if(inputAsunto.value.length > 50){
+        listaErrores.push("El asunto debe ser menor a 50 caracteres");
+        inputAsunto.classList.add("borde-rojo");
+    }
 }
 
 function validarArea(){
     area.classList.remove("borde-rojo");
     if(area.value == ""){
         listaErrores.push("Campo mensaje vacío");
+        area.classList.add("borde-rojo");
+    }
+
+    if(area.value.length > 300){
+        listaErrores.push("El mensaje debe ser menor a 300 caracteres");
         area.classList.add("borde-rojo");
     }
 }
